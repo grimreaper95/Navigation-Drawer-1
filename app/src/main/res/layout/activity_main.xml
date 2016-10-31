@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+   
     <!-- This LinearLayout represents the contents of the screen  -->
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,10 +14,14 @@
 
         <!-- The ActionBar displayed at the top -->
         <include
-            layout="@layout/toolbar"
-            android:id="@+id/mytoolbar1"
+            layout="@layout/toolbar"            
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <Textview
+                 android:id="@+id/mytextView" 
+                  >            
+            
+        </TextView>
 
         <!-- The main content view where fragments are loaded -->
         <FrameLayout
